@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leochocolates</title>
+    <link rel="stylesheet" href="leochocolates.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;700&family=Sacramento&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/12793e9e4d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div id="name"></div>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="leochocolates.html"><h3>Home</h3></a></li>
+                    <li><a href="shop.html"><h3>Shop</h3></a></li>
+                    <li><a href="career.html"><h3>Career</h3></a></li>
+                    <li><a href="about.html"><h3>About</h3></a></li>
+                    <li><a href="contact.html"><h3>Contact</h3></a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav> 
+        <h1>Our Products</h1>
+    </section>
+    
+    <!--------------------------------about us text----------------------------------------->
+
+    <section class="services">
+        <h1>Items we serve</h1>
+        <div class="row-shop2">
+             <div class="services-col">
+                <img src="croissant.jpg">
+                <h3>Chocolate Croissants</h3>
+                <p>₹199/Pieces</p>
+                <div class="button-rev">
+                <button>Order</button>
+                </div>
+             </div>
+             <div class="services-col">
+                <img src="chocolate chip cookie.jpg">
+                <h3>Chocolate Chip Cookies</h3>
+                <p>₹99/100g</p>
+                <div class="button-rev">
+                    <button><div>Order</div></button>
+                    </div>
+             </div>
+             <div class="services-col">
+                <img src="brownies.jpg">
+                <h3>Brownies</h3>
+                <p>₹99/Pieces</p>
+                <div class="button-rev">
+                    <button>Order</button>
+                    </div>
+             </div>
+             <div class="services-col">
+                <img src="truffle2.jpg">
+                <h3>Truffle</h3>
+                <p>₹49/Pieces</p>
+                <div class="button-rev">
+                    <button>Order</button>
+                    </div>
+             </div>
+             <div class="services-col">
+                <img src="macarons.jpg">
+                <h3>Macarons</h3>
+                <p>₹39/Pieces</p>
+                <div class="button-rev">
+                    <button>Order</button>
+                    </div>
+             </div>
+        </div>
+        <div class="row-shop1">
+            <div class="services-col">
+               <img src="eclair.jpg">
+               <h3>Chocolate Eclair</h3>
+               <p>₹299/Pieces</p>
+               <div class="button-rev">
+               <button>Order</button>
+               </div>
+            </div>
+            <div class="services-col">
+               <img src="mousse.jpg">
+               <h3>Chocolate Mousse</h3>
+               <p>₹139/Pieces</p>
+               <div class="button-rev">
+                   <button><div>Order</div></button>
+                   </div>
+            </div>
+            <div class="services-col">
+               <img src="lava cake.jpg">
+               <h3>Lava Cakes</h3>
+               <p>₹129/Pieces</p>
+               <div class="button-rev">
+                   <button>Order</button>
+                   </div>
+            </div>
+            <div class="services-col">
+               <img src="donut.jpg">
+               <h3>Donuts</h3>
+               <p>₹59/Pieces</p>
+               <div class="button-rev">
+                   <button>Order</button>
+                   </div>
+            </div>
+       </div>
+
+    </section>
+
+
+    <section class="footer">
+            <h4>About Us</h4>
+            <p>connect with us through social media to know us more</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+    </section>
+
+    
+<!-----------------------------------------------------------javaScript for toggle menu----------------------------------------------------------->
+<script>
+    var navlinks = document.getElementById("navlinks");
+
+    function showmenu(){
+        navlinks.style.right = "0";
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+
+
+
+
+</body>
+</html>
